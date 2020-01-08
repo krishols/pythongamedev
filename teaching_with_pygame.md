@@ -1,5 +1,16 @@
 https://aip-scitation-org.udel.idm.oclc.org/doi/pdf/10.1063/1.3460234?class=pdf 
 
+@inproceedings{wang2010teaching,
+  title={Teaching CS1 with Python GUI game programming},
+  author={Wang, Hong},
+  booktitle={AIP Conference Proceedings},
+  volume={1247},
+  number={1},
+  pages={253--260},
+  year={2010},
+  organization={AIP}
+}
+
 ### Beginning of semester: 
 Uses Pygame to teach basic programming skills: 
 * sequential programming
