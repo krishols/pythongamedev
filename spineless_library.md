@@ -1,4 +1,6 @@
 # Spineless 
+# Unusable: Outdated 
+ last updated in 2005 
 ## "Spineless is an OpenGL accelerated generic game engine with Python scripting."
 Still in "early stages of development"
 ### Installation 

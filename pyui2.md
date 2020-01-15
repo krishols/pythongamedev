@@ -1,4 +1,6 @@
 # pyui2 
+# Unusable: Outdated
+  last updated in 2005
 ## Developed from pyui, which I hope to encounter/look for/research soon 
 I...do not know where to start with this one. There's no host website, only a 
 download from pygame.org. 

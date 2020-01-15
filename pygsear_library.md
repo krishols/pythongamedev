@@ -1,4 +1,6 @@
 # Pygsear
+# Unusable: Outdated 
+last updated in 2006 
 ### http://www.nongnu.org/pygsear/ 
 ### Installation 
 have not yet been able to install 

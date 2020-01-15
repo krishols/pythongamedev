@@ -1,4 +1,6 @@
 # Pyzzle
+# Unusable: Outdated
+last updated in 2002
 ### http://pyzzle.sourceforge.net/
 ### Installation
 From pyzzle website: 

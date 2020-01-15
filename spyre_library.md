@@ -1,4 +1,6 @@
 # Spyre 
+# Unusable: Outdated
+  last updated in 2006
 ## Spyre relies on Python, Pygame, and PyOpenGL 
 Is it worth looking into a OpenGL rendering engine? I am not completely familiar
 with OpenGL past a basic Google search-not sure if it is worth adding another layer 
