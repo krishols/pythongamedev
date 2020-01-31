@@ -1,6 +1,7 @@
 # miniworldmaker
-# come back to for: tutorials 
-## https://miniworldmaker.it-teaching.de/mwm.html
+https://miniworldmaker.it-teaching.de/mwm.html
+## come back to for: tutorials 
+
 ## Features 
 "
 - MiniWorldMaker supports pixel-based games as well as games with tiles (e.g. Rogue-Likes)

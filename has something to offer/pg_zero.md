@@ -1,7 +1,8 @@
 # Pygame Zero 
-# Come back to for: documentation 
-# Unusable: scope 
-## https://pypi.org/project/pgzero/
+https://pypi.org/project/pgzero/
+## Come back to for: documentation 
+## Unusable: scope 
+
 ## Documentation:
  - documentation is very user-friendly 
    - includes narrative/walkthrough of using code 

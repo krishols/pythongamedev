@@ -1,6 +1,6 @@
 # Spyral 
-# Come back to for: testing capabilities (i think)
-## https://github.com/platipy/spyral 
+https://github.com/platipy/spyral
+## Come back to for: testing capabilities (i think) 
 ## Unusable: outdated
 - not compatible with python>2.5 
 
@@ -8,4 +8,3 @@
 ## Tests
 appears to include ability to test code-worth looking into 
 
-visited library's github...did dr. bart develop this lol?

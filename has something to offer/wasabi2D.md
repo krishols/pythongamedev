@@ -1,7 +1,8 @@
 # Wasabi 2D 
-# come back to for: animations/graphic capablities 
-# promising except for incorporation of PGZero
-## https://github.com/lordmauve/wasabi2d
+ https://github.com/lordmauve/wasabi2d
+## come back to for: animations/graphic capablities 
+## promising except for incorporation of PGZero
+
 ## relies on moderngl, pygame2.0, and supporting APIs from PGzero
 ## Features 
 - rotate, scale, move, color shapes
