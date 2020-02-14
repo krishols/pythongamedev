@@ -72,3 +72,13 @@ Binary
 Physical gates
 Physics
 * The advantage of going down is speed but complexity 
+
+
+"what do i want my API to look like?"
+"
+
+"
+1. literature review-2 hr 
+2. pygame-2 
+3. what should the API look like-1 hr
+    think of some assignments for the semester

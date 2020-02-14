@@ -7,7 +7,6 @@
 } 
 
 https://dl-acm-org.udel.idm.oclc.org/doi/pdf/10.1145/1463673.1463684?download=true 
-# Come back to finish reading 
 ## Notes 
     "However, as discussed in the next section, most
     of the existing work [regarding CS1 w/ game development] 
@@ -26,4 +25,5 @@ in pre-existing libraries and per-assignment game dev. integration would be best
         too long to learn/teach/use in a limited amount of time
             * their assumption provides support for the necessity of a lightweight
             game library 
-     
+   
+# come back to finish later         
