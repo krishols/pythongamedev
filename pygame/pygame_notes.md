@@ -108,3 +108,6 @@ Moving sprites functions by changing the coordinates of the sprite
 Vectors and vector math are used to move sprites 
 
 I hit a block around the implementation of vector math and keyboard/mouse movement...taking notes became difficult. I think this is where application and critical thinking comes into play and I’m not sure how to communicate that.  
+
+## Animation 
+https://www.pygame.org/docs/tut/MoveIt.html
