@@ -78,7 +78,23 @@ Physics
 "
 
 "
+week 1 
 1. literature review-2 hr 
 2. pygame-2 
 3. what should the API look like-1 hr
     think of some assignments for the semester
+    
+google scholar cite backtrack quorum research 
+
+professor pollock
+
+flip and blit semantics 
+
+realpython for pygame tutorials 
+
+week 2 
+1. literature review - hone in on semantics    
+    * larger constructs and understanding of language semantics and api design 
+    
+2. pygame 
+

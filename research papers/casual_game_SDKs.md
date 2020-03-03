@@ -10,5 +10,7 @@
   publisher={Consortium for Computing Sciences in Colleges}
 }
 
-SDK: Software Development Toolkits
-* implementing simple games in CS1/2
+### aim 
+* implement game development into programming education: 
+    * content: programming constructs
+    * context: game dev. 

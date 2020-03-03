@@ -95,3 +95,4 @@ significantly higher than a language with randomly generated keywords, but that 
  * " Novices may have initial difﬁculty with static type annotations" (35)
  * "Novice accuracy varies across language constructs" (35)
  
+ ## Syntax 
