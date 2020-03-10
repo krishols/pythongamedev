@@ -98,3 +98,63 @@ week 2
     
 2. pygame 
 
+---
+next steps 3/3/2020
+
+* think of actual assignments 
+
+### API 
+1. graphic/pictures
+    - media comp
+    - PIL/pillow 
+        - scale
+        - rotate
+        - load a file from a url 
+        - make shapes 
+2. animation 
+    - arcade 
+    - pygame 
+        - collisions 
+        - have a sprite in a window 
+        - movement 
+        - events 
+    
+    
+### Things to think about 
+Order of teaching: 
+- variables, values, types/operators
+- functions 
+- if statements 
+- for, while, recursion, classes, dictionaries ??? modules 
+- What do we want the user to write/see/use? 
+
+2 different ways to approach: 
+1. subclassing 
+2. while True: main game loop 
+
+Week 1: 
+from banana import image 
+dog = image("dog.png")
+print(dog) # dog = dog * 2 
+dog.scale(2) 
+
+* user study: what type of code would you write to design game? 
+
+---
+week 4 
+- (function definitions and if statements)
+
+        def dog_game(score): 
+        
+        if is_clicked(dog): 
+    
+        score += 1 
+        
+        return game
+        
+        run_game(dog, dog_game, 0)
+
+(takes in dog image and function)
+---
+week 8 - 12 
+introduce game 

@@ -38,12 +38,20 @@ of an API usability study which combines interview questions based on the cognit
 dimensions framework, with systematic observations of programmer behavior while solving 
 programming tasks based on ``tokens''.
 
+FIXME Look at methodology 
+
+Create 
+Read
+Update
+Delete
+
 ---
 ### Developing API from patterns 
 @inproceedings{vanderdonckt2010generative,
   title={Generative pattern-based design of user interfaces},
   author={Vanderdonckt, Jean and Simarro, Francisco Montero},
-  booktitle={Proceedings of the 1st International Workshop on Pattern-Driven Engineering of Interactive Computing Systems},
+  booktitle={Proceedings of the 1st International Workshop on Pattern-Driven Engineering of
+   Interactive Computing Systems},
   pages={12--19},
   year={2010}
 }
