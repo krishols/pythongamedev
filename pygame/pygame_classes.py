@@ -103,6 +103,9 @@ class Game(object):
         self.timer_max = 100
         self.timer = 1
 
+
+
+
     def move_frog(self):
         changed_areas = []
         for event in pygame.event.get():

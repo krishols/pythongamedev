@@ -45,7 +45,7 @@ simplified versions of the game; and
 "The challenges posed by the OO API has since been remedied with the functional
 API as introduced in Section 4.2.2. Currently, the materials developed based on the
 functional API are being field tested in UWB classes taught by tenure- and
-teaching-track, and part-time faculty. None of these faculty are with prior experience teaching with videogames. Though the study has not concluded, the initial results suggest
-students and faculty alike find the materials interesting where the stressful situations from
-the previous academic year have not been observed."
+teaching-track, and part-time faculty. None of these faculty are with prior experience teaching with videogames. 
+Though the study has not concluded, the initial results suggest students and faculty alike find the materials
+interesting where the stressful situations from the previous academic year have not been observed."
 * look for later-published studies 

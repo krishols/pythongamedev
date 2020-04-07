@@ -12,7 +12,7 @@
     arcade 
 * summary evaluations:
     * barely half claim arcade is engaging
-    * "what 1-3 things would you change of the c ourse", out of 112 lines, arcade comes up 54 times
+    * "what 1-3 things would you change of the course", out of 112 lines, arcade comes up 54 times
 * looking for lightweight in terms of content, provides a motivating context:
  not looking to dedicate entirety of CS1 to game development. Arcade requires too much
  instructional time/support to dedicate to final project.
@@ -102,22 +102,6 @@ week 2
 next steps 3/3/2020
 
 * think of actual assignments 
-
-### API 
-1. graphic/pictures
-    - media comp
-    - PIL/pillow 
-        - scale
-        - rotate
-        - load a file from a url 
-        - make shapes 
-2. animation 
-    - arcade 
-    - pygame 
-        - collisions 
-        - have a sprite in a window 
-        - movement 
-        - events 
     
     
 ### Things to think about 
@@ -133,10 +117,14 @@ Order of teaching:
 2. while True: main game loop 
 
 Week 1: 
-from banana import image 
-dog = image("dog.png")
-print(dog) # dog = dog * 2 
-dog.scale(2) 
+
+        from banana import image 
+        
+        dog = image("dog.png")
+        
+        print(dog) # dog = dog * 2 
+        
+        dog.scale(2) 
 
 * user study: what type of code would you write to design game? 
 
@@ -154,7 +142,136 @@ week 4
         
         run_game(dog, dog_game, 0)
 
-(takes in dog image and function)
+    takes in dog image and function
 ---
 week 8 - 12 
+
 introduce game 
+
+---
+
+### API 
+1. graphic/pictures
+    - media comp
+    - PIL/pillow 
+        - scale
+        - rotate
+        - load a file from a url 
+        - make shapes 
+2. animation 
+    - arcade 
+    - pygame 
+        - collisions 
+        - have a sprite in a window 
+        - movement 
+        - events 
+        
+### API design 
+#### What are design problems we don't have answers to?
+- semantics 
+    - make vs. draw vs. create...etc 
+         - interesting to note Arcade interchangeably uses create and draw 
+    - sprite 
+    -  window vs. screen vs. view 
+- exposing main game loop 
+- exposing flipping/blitting versus handling it automatically 
+    - e.g. Arcade built in flip() to on_draw() 
+- incorporation of / student exposure to classes 
+    - subclassing? 
+- going off of previous 2, Arcade has Window class, Spyral has Scene and Director interaction 
+- overall, game objects: 
+    - what is their role? how much agency do we give users? 
+- feasibility of providing options? 
+    - main loop vs invisible main loop 
+    - classes / no classes 
+    perhaps this is an option in curriculum design? creating curriculum purposefully meant to
+    incorporate both/one/combination of features at intention places in the course? 
+        - how *much* personalization/how many options do we want? where do we have to make
+        definitive decisions         
+- handling events 
+    - pygame includes queue of events, but i don't think i encountered the queue at all during popcornfrog
+        - how does pygame handle events? 
+- animation
+    - Arcade does not offer a lot of animation features, most is done manually
+    by the user (I think) although it does offer classes AnimatedTimeBasedSprite and
+    AnimatedWalkingSprite but I have not found much application for them
+    - spyral offers Animation class 
+    
+            "The following example shows a Sprite with an animation that will linearly
+            change its 'x' property from 0 to 100 over 2 seconds.::
+            
+             from spyral import Sprite, Animation, easing
+             ...
+             my_sprite = Sprite(my_scene)
+             my_animation = Animation('x', easing.Linear(0, 100), 2.0)
+             my_sprite.animate(my_animation)"
+       where animate is a method of class Sprite
+    
+    
+--- 
+incremental introduction to library 
+topics: variables, values, types, operators 
+    - simultaneously: loading images and drawing shapes, potentially shape manipulation with shape * scale, shape + shape, etc. 
+           - create functions similar to API of final library to introduce API but doing more work behind the scenes,
+           such as not expecting users to control coordinates, etc. 
+          
+        # create a variable that stores an image 
+        frog_pic = load_image("frog") 
+         
+        # create a new variable twice as big the original image size, , using your original variable
+        bigger_frog_pic = frog_pic * 2 ? 
+        or 
+        draw(frog_pic * 2) ? 
+          
+        # create multiple occurences of your variable
+        draw(frog_pic + frog_pic) 
+        
+topic: functions 
+- simultaneously: introduce basic functions such as drawing and animating sprites and shapes
+    - perhaps revisit last week's use of function to load image to screen 
+    
+    
+        # exercise one 
+        # using your variable and the animation function, make the variable move across the screen 
+        move(frog_pic, 5, 5)
+        
+        # exercise two
+        # use the draw function to create a house out of a square and rectangle
+        create_rect(50, 50, 100, 100) 
+        create_triangle(100, 100, 150, 100, 125, 150) 
+        
+        # use the code you just created to make a function that will create a house, with parameters
+        that will represent the bottom left corner of the house
+        
+        def create_house(x, y): 
+            create_rect(50, 50, 100, 100) 
+            create_triangle(100, 100, 150, 100, 125, 150) 
+        
+topic: if statements
+- simultaneously, collisions 
+
+        # use animate function to animate two sprites 
+        frog = load("frog_image") 
+        candy = load("candy_image") 
+        animate(frog, (0, 100), 2) 
+        animate(candy, (100, 0), 2) 
+        
+        # use collision function to detect if sprites are colliding. if they are, print on screen "colliding". otherwise
+        # print "not colliding" 
+        if frog.collides(candy): 
+            print_to_screen("collding")
+        else: 
+            print_to_screen("not colliding") 
+            
+topic: for loop
+- simultaneously, event handling, animation  
+
+       # detect if space bar is pressed, move sprite 5 units to the right
+       x1 = 0
+       x2 = 5
+       for event in event_list: 
+            if space_pressed: 
+                animate(frog, (x1, x2), 2) 
+                x1 += 5
+                x2 += 5
+        
